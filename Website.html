@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAAM GRAPHICS</title>
+<style>
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial;
+    padding:10px
+    background:#f1f1f1;
+    
+}
+.header{
+    padding:30px;
+    text-align: center;
+    background:white;
+}
+.header h1{
+    font-size:50px;
+}
+.topnav{
+    overflow:hidden;
+    background-color:#333;
+}
+.topnav a{
+    float:left;
+    display:black;
+    color:#f2f2f2;
+    text-align:center;
+    padding:16px 25px;
+    text-decoration:none;
+}
+.topnav a:hover{
+    background-color:#white;
+    color:green;
+}
+.leftcolumn{
+    float:left;
+    width:75%;
+}
+.rightcolumn{
+    float:left;
+    width:25%;
+    padding-left:30px;
+}
+.fakeimg{
+    background-color:#aaa;
+    width:100%;
+    padding:80px;
+    margin:1px;
+}
+.card{
+    background-color:white;
+    padding:20px;
+    margin-top:20px;
+}
+.row:after{
+    content"";
+    display:table;
+    clear:both;
+}
+.footer{
+    padding:20px;
+    text-align:center;
+    background:#ddd;
+    margin-top:20px;
+    
+}
+@media screen and (max-widht:800px){
+.leftcolumn,rightcolumn{
+    width:100%;
+    padding:0;
+    }
+    
+    }
+    
+@media screen and (max-width:400px){
+.topnav a{
+    float:none;
+    width:100%;
+ }   
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1> Lorem, ipsum dolor.</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, aliquam.</p>
+</div>
+<div class="topnav">
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+<a href="#">Castomer</a>
+</div>
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2> Lorem ipsum dolor sit amet.</h2>
+<h5>Lorem ipsum dolor sit amet consectetur.<h5>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+<p>Lorem ipsum dolor sit amet consectetur.
+</p>
+</div>
+<div class="card">
+<h2>Lorem ipsum dolor sit amet.</h2>
+<h5>Lorem ipsum dolor, sit amet consectetur adipisicing.<h5>
+<div class="fakeimg" style="height:200px;">Image</div>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolore!</p>
+</div>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h2> About us<h2>
+<div class="fakeimg" style="height:100px;">Roll up</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+</div>
+<div class="card">
+<h3> Lorem ipsum dolor sit amet.</h3>
+<div class="fakeimg"><p>Lorem, ipsum dolor.</p></div>
+<div class="fakeimg"><p>Lorem, ipsum dolor.</p></div>
+<div class="fakeimg"><p>3D</p></div>
+</div>
+<div class="card">
+<h3> Fallow us <h3>
+<p>Lorem ipsum dolor sit. </p>
+</div>
+</div>
+</div>
+<div class="footer">
+<b>&copy Footer</b>
+</div>
+<h2></h2>
+</div>
+</body>
+</html>
